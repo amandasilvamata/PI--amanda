@@ -66,6 +66,7 @@ header .usuario{
 } */
 main .banner{
     font-family: 'Titillium Web';
+    font-weight: bold;
     font-size: 50px;
     color: #FFFFFF;
     text-align: center;
@@ -75,9 +76,40 @@ main .banner{
     border-radius: 10px;
     background: #C84567; 
 }
+main .buttonDireita {
+    background-color: #FFFFFF;
+    border: none;
+    color: white;
+    padding: 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 21px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+main .bi-arrow-left-circle-fill{
+    margin: -2px;
+    width: 52px;
+    height: 52px;
+    color: black;
+}
+main .populares , .livrosGeral{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'Titillium Web';
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #FACD5B;
+}
 main #livro{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 20px;
     margin-left: 50px;
     margin-right: 50px;
@@ -86,7 +118,7 @@ main #livro{
 /*main .livro1{*/
    /* margin-left: 50px;
     margin-top: 20px;*/
-main .img1 , .img2{
+main .img1 , .img2 , .img3 , .img4 , .img5 {
     width: 189px;
     height: 239px;
     margin-top: 1px;
@@ -150,8 +182,38 @@ main .livro1 .marcador1{
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
     z-index: 1;
 }
-
-
+main .buttonCompra{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    border-radius: 5px;
+}
+main .comprarHome{
+    font-family: 'Titillium Web';
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    
+}
+a:link{
+    text-decoration: none;
+    color: #000;
+}
+a:visited{
+    color: #000;
+}
+.comprarHome:hover , .favoritarHome:hover , .carrinhoHome:hover{
+    background-color: #E85C3B;
+}
+main .favoritarHome , .carrinhoHome{
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
 main .frente2{
    /* display: flexbox;*/
     position: relative;
@@ -309,6 +371,273 @@ main .frente3{
      background: #FFF6E0;  
  }
  main .marcador5{
+     position: relative;
+     top: -76px;
+     left: 150px;
+     width: 32px;
+     height: 52px; 
+     background: #FDBB13;
+     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+     z-index: 1;
+ }
+#todosLivrosHome{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px ;
+
+ }
+ main .img6 , .img7 , .img8 , .img9 , .img10{
+    width: 189px;
+    height: 239px;
+    margin-top: 1px;
+    margin-left: 17px;
+    border-radius: 28px 20px 0px 0px;
+ }
+ main .tituloLivro6 , .tituloLivro7 , .tituloLivro8 , .tituloLivro9 , .tituloLivro10{
+    position: relative;
+    top: -60px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+ }
+ main .preco6 , .preco7 , .preco8 , .preco9 , .preco10{
+    font-family: 'Titillium Web';
+    margin-top: -40px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+ main .frente6{
+    position: relative;
+    /*margin-top: 20px;
+    left: 50px;*/
+    width: 206px;
+    height: 255px; 
+    border-radius: 50px 20px 20px 0px;
+    background: #2C4A9C;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+main .inferior6{
+    position: relative;
+    /*margin-bottom: 10px;*/
+    top: -15px;
+    /*left: 48px;*/
+    width: 206px;
+    height: 43px; 
+    border-radius: 20px 0px 10px 50px;
+    background: #153383;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+    z-index: 1;
+}
+main .folhas6{
+    position: relative;
+    top: -50px;
+    left: 24px;
+    width: 182px;
+    height: 26px;
+    border-radius: 50px 0px 0px 50px;
+    background: #FFF6E0;  
+    z-index: 1;
+}
+main .marcador6{
+    position: relative;
+    top: -76px;
+    left: 150px;
+    width: 32px;
+    height: 52px; 
+    background: #FDBB13;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+    z-index: 1;
+}
+main .buttonCompra{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    border-radius: 5px;
+}
+main .comprarHome{
+    font-family: 'Titillium Web';
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    
+}
+a:link{
+    text-decoration: none;
+    color: #000;
+}
+a:visited{
+    color: #000;
+}
+.comprarHome:hover , .favoritarHome:hover , .carrinhoHome:hover{
+    background-color: #E85C3B;
+}
+main .favoritarHome , .carrinhoHome{
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+main .frente7{
+   /* display: flexbox;*/
+    position: relative;
+   /* top: -310px;
+    left: 350px; */
+    width: 206px;
+    height: 255px; 
+    border-radius: 50px 20px 20px 0px;
+    background: #F65E86;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+main .inferior7{
+    position: relative;
+    /*margin-bottom: 10px;
+    top: 820px;
+    left: 348px;*/
+    top: -15px;
+    width: 206px;
+    height: 43px; 
+    border-radius: 20px 0px 10px 50px;
+    background: #C84567;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+}
+main .folhas7{
+    position: relative;
+    top: -50px;
+    left: 24px;
+    width: 182px;
+    height: 26px;
+    border-radius: 50px 0px 0px 50px;
+    background: #FFF6E0;  
+}
+main .marcador7{
+    position: relative;
+    top: -76px;
+    left: 150px;
+    width: 32px;
+    height: 52px; 
+    background: #FDBB13;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+    z-index: 1;
+}
+main .frente8{
+    /* display: flexbox;*/
+     position: relative;
+    /* top: -310px;
+     left: 350px; */
+     width: 206px;
+     height: 255px; 
+     border-radius: 50px 20px 20px 0px;
+     background: #FA8B71;
+     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+ }
+ main .inferior8{
+     position: relative;
+     /*margin-bottom: 10px;
+     top: 820px;
+     left: 348px;*/
+     top: -15px;
+     width: 206px;
+     height: 43px; 
+     border-radius: 20px 0px 10px 50px;
+     background: #E85C3B;
+     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+ }
+ main .folhas8{
+     position: relative;
+     top: -50px;
+     left: 24px;
+     width: 182px;
+     height: 26px;
+     border-radius: 50px 0px 0px 50px;
+     background: #FFF6E0;  
+ }
+ main .marcador8{
+     position: relative;
+     top: -76px;
+     left: 150px;
+     width: 32px;
+     height: 52px; 
+     background: #FDBB13;
+     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+     z-index: 1;
+ }
+ main .frente9{
+    /* display: flexbox;*/
+     position: relative;
+    /* top: -310px;
+     left: 350px; */
+     width: 206px;
+     height: 255px; 
+     border-radius: 50px 20px 20px 0px;
+     background: #FACD5B;
+     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+ }
+ main .inferior9{
+     position: relative;
+     /*margin-bottom: 10px;*/
+     top: -15px;
+     /*left: 348px;*/
+     width: 206px;
+     height: 43px; 
+     border-radius: 20px 0px 10px 50px;
+     background: #FDBB13;
+     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+ }
+ main .folhas9{
+     position: relative;
+     top: -50px;
+     left: 24px;
+     width: 182px;
+     height: 26px;
+     border-radius: 50px 0px 0px 50px;
+     background: #FFF6E0;  
+ }
+ main .marcador9{
+     position: relative;
+     top: -76px;
+     left: 150px;
+     width: 32px;
+     height: 52px; 
+     background: #FDBB13;
+     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+     z-index: 1;
+ }
+ main .frente10{
+    /* display: flexbox;*/
+     position: relative;
+    /* top: -310px;
+     left: 350px; */
+     width: 206px;
+     height: 255px; 
+     border-radius: 50px 20px 20px 0px;
+     background: #2C4A9C;
+     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+ }
+ main .inferior10{
+     position: relative;
+     /*margin-bottom: 10px;*/
+     top: -15px;
+     /*left: 348px;*/
+     width: 206px;
+     height: 43px; 
+     border-radius: 20px 0px 10px 50px;
+     background: #153383;
+     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+ }
+ main .folhas10{
+     position: relative;
+     top: -50px;
+     left: 24px;
+     width: 182px;
+     height: 26px;
+     border-radius: 50px 0px 0px 50px;
+     background: #FFF6E0;  
+ }
+ main .marcador10{
      position: relative;
      top: -76px;
      left: 150px;
